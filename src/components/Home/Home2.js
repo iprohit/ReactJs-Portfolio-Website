@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> JAVA, HTML, CSS, SQL, & PYTHON </b>
+                <b className="purple"> JAVA, AWS, DevOps, ReactJs, HTML, CSS, Javascript, SQL, & PYTHON </b>
               </i>
               <br />
               <br />
@@ -39,16 +39,16 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">HTML, CSS</b> and
+              with <b className="purple">HTML, CSS, Javascript</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  AWS and DevOps Tools
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js </b>
+                <b className="purple"> Jenkins, Docker, ECS, Terraform, Ansible, Kubernetes </b>
               </i>
             </p>
           </Col>

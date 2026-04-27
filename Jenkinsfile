@@ -2,6 +2,12 @@ pipeline {
     agent any
 
     stages {
+        stage('Build React') {
+            steps {
+                sh 'npm install'
+                sh 'npm run build'
+            }
+        }
 
         stage('Build Docker Image') {
             steps {

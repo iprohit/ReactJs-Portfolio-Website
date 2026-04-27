@@ -2,10 +2,13 @@ pipeline {
     agent any
 
     stages {
+
         stage('Build React') {
             steps {
-                sh 'npm install'
-                sh 'npm run build'
+                sh '''
+                npm install --legacy-peer-deps
+                npm run build
+                '''
             }
         }
 

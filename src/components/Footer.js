@@ -31,14 +31,7 @@ function Footer() {
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons">
-              <button
-  onClick={handleClick}
-  style={{ color: "white", background: "none", border: "none" }}
-> 
-                <AiOutlineTwitter />
-              </a>
-            </li>
+            
             <li className="social-icons">
               <a
                 href="https://linkedin.com/in/rohit-ippalpalli/"

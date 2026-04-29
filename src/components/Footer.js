@@ -32,12 +32,10 @@ function Footer() {
               </a>
             </li>
             <li className="social-icons">
-              <a
-                href="#"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
+              <button
+  onClick={handleClick}
+  style={{ color: "white", background: "none", border: "none" }}
+> 
                 <AiOutlineTwitter />
               </a>
             </li>

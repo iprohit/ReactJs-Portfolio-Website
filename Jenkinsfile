@@ -4,13 +4,14 @@ pipeline {
     stages {
 
         stage('Build React') {
-            steps {
-                sh '''
-                npm install --legacy-peer-deps
-                npm run build
-                '''
-            }
-        }
+    steps {
+        sh '''
+        export NODE_OPTIONS=--max-old-space-size=1024
+        npm install --legacy-peer-deps
+        npm run build
+        '''
+    }
+}
 
         stage('Build Docker Image') {
             steps {
